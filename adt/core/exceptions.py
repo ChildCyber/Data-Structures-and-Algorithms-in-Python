@@ -7,3 +7,7 @@ class Empty(Exception):
 
 class PrioQueueError(ValueError):
     pass
+
+
+class GraphError(Exception):
+    pass
